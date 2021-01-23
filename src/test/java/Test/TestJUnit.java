@@ -63,6 +63,7 @@ public class TestJUnit {
 
 	
 	// Check that two primitives / Objects are equal void
+	@Ignore
 	@Test 
 	public void testAssertEquals() { 
 		System.out.println("Ejecutando test AssertEquals.");
@@ -73,6 +74,7 @@ public class TestJUnit {
 	}
 	 
 	// Check that a condition is true
+	@Ignore
 	@Test
 	public void testAssertTrue() {
 		System.out.println("Ejecutando test AssertTrue.");
@@ -83,6 +85,7 @@ public class TestJUnit {
 	}
 	
 	// Check that a condition is false
+	@Ignore
 	@Test
 	public void testAssertFalse() {
 		System.out.println("Ejecutando test AssertFalse.");
@@ -93,6 +96,7 @@ public class TestJUnit {
 	}
 	
 	// Check than an object isn't null
+	@Ignore
 	@Test
 	public void testAssertNotNull() {
 		System.out.println("Ejecutando test AssertNotNull.");
@@ -103,7 +107,6 @@ public class TestJUnit {
 	}
 	
 	// Check than an object is null
-	@Ignore
 	@Test
 	public void testAssertNull() {
 		System.out.println("Ejecutando test AssertNulls.");
