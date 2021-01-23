@@ -103,6 +103,7 @@ public class TestJUnit {
 	}
 	
 	// Check than an object is null
+	@Ignore
 	@Test
 	public void testAssertNull() {
 		System.out.println("Ejecutando test AssertNulls.");
