@@ -63,6 +63,7 @@ public class TestJUnit {
 
 	
 	// Check that two primitives / Objects are equal void
+	@Ignore
 	@Test 
 	public void testAssertEquals() { 
 		System.out.println("Ejecutando test AssertEquals.");
@@ -73,6 +74,7 @@ public class TestJUnit {
 	}
 	 
 	// Check that a condition is true
+	@Ignore
 	@Test
 	public void testAssertTrue() {
 		System.out.println("Ejecutando test AssertTrue.");
